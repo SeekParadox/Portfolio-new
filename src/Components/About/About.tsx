@@ -10,10 +10,10 @@ const About = () => {
       </header>
 
       {/* About me section */}
-      <div className="grid grid-cols-12">
-        <p className="col-start-2 col-span-6">
-          <h1>Welcome to my portfolio!</h1>
-          <span className="name text-4xl">
+      <div className="about-me grid grid-cols-12">
+        <p className="col-start-1 sm:col-span-6 md:col-span-6 xl:col-start-2 xl:col-span-6 xl:leading-[4rem] sm:text-xs xl:text-2xl">
+          <h1 className="">Welcome to my portfolio!</h1>
+          <span className="name text-4xl sm:text-xs md:text-2xl">
             I'm <strong className="text-center">Michael Waller</strong>
           </span>{" "}
           a passionate <span className="font-e  ">SOFTWARE ENGINEER</span> with
@@ -24,7 +24,7 @@ const About = () => {
           team. Let's collaborate and turn your backend vision into reality!
         </p>
         <img
-          className=" col-start-9 col-end-13 rounded"
+          className="col-start-9 col-end-13 md:col-start-8  xl:col-start-10  rounded"
           src="/public/me.jpeg"
           alt=""
         />
