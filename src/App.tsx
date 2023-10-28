@@ -13,9 +13,16 @@ function App() {
     //Projects
     //Skills
     //Github and Resume
-    <div className="snap-mandatory">
+    
+    <>
+      <header className="">
+        <p className="">MW</p>
+        <h1 className="">Welcome to my portfolio!</h1>
+
+      </header>
+      
       <About />
-    </div>
+      </> 
   );
 }
 
